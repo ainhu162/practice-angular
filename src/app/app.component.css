@@ -1,0 +1,13 @@
+.box {
+  width: 500px;
+  max-width: 90%;
+  margin: 5rem auto;
+  background-color: rgb(6, 150, 175);
+  box-shadow: 0 0 5px #ccc;
+  padding: 1rem;
+}
+
+.inner-box {
+  background-color: #fff;
+  padding: .5rem;
+}

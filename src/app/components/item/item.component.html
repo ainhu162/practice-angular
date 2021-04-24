@@ -1,0 +1,4 @@
+<div (click)="handleChange($event)" class="item" [class.checked]="item.value">
+  <input  type="checkbox" [name]="item.name" [checked]="item.value"
+    [value]="item.name">{{item.name}}</div>
+

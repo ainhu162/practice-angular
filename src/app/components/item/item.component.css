@@ -1,0 +1,12 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: .5rem;
+  border: 1px solid #ccc;
+  margin: .5rem 0;
+  flex: 1;
+}
+
+.item.checked {
+  border: 1px dashed rgb(6, 150, 175);
+}
